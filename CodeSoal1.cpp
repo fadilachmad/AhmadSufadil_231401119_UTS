@@ -6,7 +6,6 @@ int main(){
     system("cls");
     cout << "---Masukkan Nilai -1 Untuk Menghitung Mean---\n\n";
     do{ 
-        repeat :
         cout << "Masukkan nilai ke-" << i+1 << " : ";
         cin >> n;
 
@@ -22,7 +21,6 @@ int main(){
         }
         else if(n < -1){
             cout << "Error! Masukkan sebuah bilangan bulat positif!." << endl;
-            goto repeat;
         }
         else{
             total += n; 
